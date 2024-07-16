@@ -35,7 +35,7 @@ SL, thus greatly enhancing the training efficiency. It is worth noting that Spli
 
 ### 1 Introduction
 
-SplitLoRA contains the source code of the Python package loralib and  a example of how to integrate it with PyTorch models, GPT2-s. We only support PyTorch for now.In the future, we will integrate more open source LLMs and more tasks into the SplitLoRA framework
+SplitLoRA contains the source code of the Python package loralib and  a example of how to integrate it with PyTorch models, GPT2-s. We only support PyTorch for now. In the future, we will integrate more open source LLMs and more tasks into the SplitLoRA framework
 
 + The source code of the Python package loralib
 
