@@ -250,7 +250,7 @@ def optimizer_step(
     optimizer_client.zero_grad()
 
 
-def evaluate(model_client, model_server, valid_loader):
+def evaluate(model_client, model_server, valid_loader,args):
     model_client.eval()
     model_server.eval()
     device = torch.device("cuda")
@@ -459,7 +459,6 @@ def train_validate(
                 if best_val_ppl is None or valid_ppl < best_val_ppl:
                     best_val_ppl = valid_ppl
 
-                #
                 log_str = (
                     f"| Eval {train_step // args.eval_interval:3d} at step {train_step:>8d} | "
                     f"time: {time.time() - eval_start_time:5.2f}s | valid loss {valid_loss:5.2f} | "
