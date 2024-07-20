@@ -26,6 +26,7 @@ def add_gpu_params(parser: argparse.ArgumentParser):
 
 
 def distributed_opt(args, model, opt, grad_acc=1):
+
     if args.platform == 'azure':
         args.hvd.broadcast_parameters(model.state_dict(), root_rank=0)
         opt = args.hvd.DistributedOptimizer(
