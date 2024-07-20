@@ -1,6 +1,6 @@
 ## Security
 
-FDU_ISI is committed to rapidly addressing security vulnerabilities affecting our customers and providing clear guidance on the solution, impact, severity and mitigation.
+FDUI is committed to rapidly addressing security vulnerabilities affecting our customers and providing clear guidance on the solution, impact, severity and mitigation.
 
 
 ## Reporting a Vulnerability
