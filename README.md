@@ -1,7 +1,20 @@
 # SplitLoRA: A Split Parameter-Efficient Fine-Tuning Framework for Large Language Models
 
-**SplitLoRA is the first SL LLM fine-tuning framework. SplitLoRA is built on the split federated learning (SFL) framework, amalgamating the advantages of parallel training from FL and model splitting from
-SL, thus greatly enhancing the training efficiency. It is worth noting that SplitLoRA is the inaugural open-source benchmark for SL LLM fine-tuning, providing a foundation for research efforts dedicated to advancing SL LLM fine-tuning.  The project page is available at [https://fdu-inc.github.io/splitlora/](https://fdu-inc.github.io/splitlora/) and technical report can be found at [https://arxiv.org/pdf/2407.00952](https://arxiv.org/pdf/2407.00952)**
+
+
+Zheng Lin<sup>1 2</sup> &nbsp;    Xuanjie Hu<sup>1</sup> &nbsp; Yuxin Zhang<sup>1</sup> &nbsp; Zhe Chen<sup>1</sup> &nbsp; Zihan Fang<sup>1 3</sup> &nbsp;  Xianhao Chen<sup>2</sup> &nbsp;  Wenjun Zhu<sup>1</sup> &nbsp; Jin Zhao<sup>1</sup> &nbsp; Ang Li<sup>4</sup> &nbsp; Praneeth Vepakomma<sup>5 6</sup> &nbsp; Yue Gao<sup>1</sup>
+
+<sup>1</sup>School of Computer Science, Fudan University, Shanghai, China <br>
+<sup>2</sup>Department of Electrical and Electronic Engineering, University of Hong Kong, Pok Fu Lam, Hong Kong, China<br>
+<sup>3</sup>Department of Computer Science, City University of Hong Kong, Kowloon, Hong Kong, China<br>
+<sup>4</sup>Department of Electrical and Computer Engineering, University of Maryland, College Park, USA<br>
+<sup>5</sup>Massachusetts Institute of Technology, Cambridge, USA<br>
+<sup>6</sup>Mohamed bin Zayed University of Artificial Intelligence, Abu Dhabi, United Arab Emirates
+
+
+
+**Overview: SplitLoRA is the first SL LLM fine-tuning framework. SplitLoRA is built on the split federated learning (SFL) framework, amalgamating the advantages of parallel training from FL and model splitting from
+SL, thus greatly enhancing the training efficiency. It is worth noting that SplitLoRA is the inaugural open-source benchmark for SL LLM fine-tuning, providing a foundation for research efforts dedicated to advancing SL LLM fine-tuning.  The project page is available at [https://fdu-inc.github.io/splitlora/](https://fdu-inc.github.io/splitlora/) and the technical report can be found at [https://arxiv.org/pdf/2407.00952](https://arxiv.org/pdf/2407.00952). If you've found the SplitLoRA framework useful for your project, please cite our paper.**
 
 ### Citation
 ```BibTeX
@@ -23,7 +36,7 @@ SL, thus greatly enhancing the training efficiency. It is worth noting that Spli
 
 ### 1 Introduction
 
-SplitLoRA contains the source code of the Python package loralib and  a example of how to integrate it with PyTorch models, GPT2-s. We only support PyTorch for now.In the future, we will integrate more open source LLMs and more tasks into the SplitLoRA framework
+SplitLoRA contains the source code of the Python package loralib and  a example of how to integrate it with PyTorch models, GPT2-s. We only support PyTorch for now. In the future, we will integrate more open source LLMs and more tasks into the SplitLoRA framework
 
 + The source code of the Python package loralib
 
