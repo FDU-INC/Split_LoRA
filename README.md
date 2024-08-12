@@ -54,7 +54,7 @@ We have verified in the environment below:
 
 + Python: 3.7.16
 
-|    |torch <br> 1.7.1+cu101  |  transformers<br>3.3.1 | spacy | tqdm | tensorboard|progress|
+|    |torch <br> 1.7.1+cu110  |  transformers<br>3.3.1 | spacy | tqdm | tensorboard|progress|
 |---|:---:|:---:|---|---|---|---|
 
 <i>Note: You still need the original pre-trained checkpoint from [Hugging Face](https://huggingface.co/) to use the LoRA checkpoints.</i>
