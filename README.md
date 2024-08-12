@@ -119,11 +119,6 @@ We have verified in the environment below:
  2. Clone the repo and install dependencies in a virtual environment (remove sudo if running in docker container):
 
  ```python
- sudo apt-get update
- sudo apt-get -y install git jq virtualenv
- git clone https://github.com/microsoft/LoRA.git; cd LoRA
- virtualenv -p `which python3` ./venv
- . ./venv/bin/activate
  pip install -r requirement.txt
  bash download_pretrained_checkpoints.sh
  bash create_datasets.sh
