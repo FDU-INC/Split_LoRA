@@ -287,5 +287,8 @@ If you want to know more detailed information about Lora, see https://github.com
 
 If you've found SplitLoRA framework useful for your project, please cite our paper.
 
+## Update
+[2025/01/09] 🔥 We are excited to announce the release of the split_lora v1.1.0 version for Llama3 . This code allows you to efficiently train the Llama3 model by leveraging split learning techniques. You can access and review the code at the following link: [[Code](https://github.com/FDU-INC/Split_LoRA/tree/v1.1.0)]
+
 ## Contact Us
 + Mr. Xuanjie Hu, email: 23210240184@m.fudan.edu.cn
