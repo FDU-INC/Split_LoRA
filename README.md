@@ -1,34 +1,7 @@
 # SplitLoRA: A Split Parameter-Efficient Fine-Tuning Framework for Large Language Models
 
-
-
-Zheng Lin<sup>1 2</sup> &nbsp;    Xuanjie Hu<sup>1</sup> &nbsp; Yuxin Zhang<sup>1</sup> &nbsp; Zhe Chen<sup>1</sup> &nbsp; Zihan Fang<sup>1 3</sup> &nbsp;  Xianhao Chen<sup>2</sup> &nbsp;  Wenjun Zhu<sup>1</sup> &nbsp; Jin Zhao<sup>1</sup> &nbsp; Ang Li<sup>4</sup> &nbsp; Praneeth Vepakomma<sup>5 6</sup> &nbsp; Yue Gao<sup>1</sup>
-
-<sup>1</sup>School of Computer Science, Fudan University, Shanghai, China <br>
-<sup>2</sup>Department of Electrical and Electronic Engineering, University of Hong Kong, Pok Fu Lam, Hong Kong, China<br>
-<sup>3</sup>Department of Computer Science, City University of Hong Kong, Kowloon, Hong Kong, China<br>
-<sup>4</sup>Department of Electrical and Computer Engineering, University of Maryland, College Park, USA<br>
-<sup>5</sup>Massachusetts Institute of Technology, Cambridge, USA<br>
-<sup>6</sup>Mohamed bin Zayed University of Artificial Intelligence, Abu Dhabi, United Arab Emirates
-
-
-
 **Overview: SplitLoRA is the first SL LLM fine-tuning framework. SplitLoRA is built on the split federated learning (SFL) framework, amalgamating the advantages of parallel training from FL and model splitting from
 SL, thus greatly enhancing the training efficiency. It is worth noting that SplitLoRA is the inaugural open-source benchmark for SL LLM fine-tuning, providing a foundation for research efforts dedicated to advancing SL LLM fine-tuning.  The project page is available at [https://fdu-inc.github.io/splitlora/](https://fdu-inc.github.io/splitlora/) and the technical report can be found at [https://arxiv.org/pdf/2407.00952](https://arxiv.org/pdf/2407.00952). If you've found the SplitLoRA framework useful for your project, please cite our paper.**
-
-### Citation
-```BibTeX
-@inproceedings{
-  @article{lin2024splitlora,
-  title={{SplitLoRA: A Split Parameter-Efficient Fine-Tuning Framework for Large Language Models}},
-  author={Lin, Zheng and Hu, Xuanjie and Zhang, Yuxin and Chen, Zhe and Fang, Zihan and Chen, Xianhao and Li, Ang and Vepakomma, Praneeth and Gao, Yue},
-  journal={arXiv preprint arXiv:2407.00952},
-  year={2024}
-  }
-}
-```
-
-
 
 ## User Guide
 
@@ -270,18 +243,6 @@ python src/gpt2_decode.py \
 python eval/e2e/measure_scores.py e2e_ref.txt e2e_pred.txt -p
 ```
 
-### 5. Citation
-```BibTeX
-@inproceedings{
-  @article{lin2024splitlora,
-  title={{SplitLoRA: A Split Parameter-Efficient Fine-Tuning Framework for Large Language Models}},
-  author={Lin, Zheng and Hu, Xuanjie and Zhang, Yuxin and Chen, Zhe and Fang, Zihan and Chen, Xianhao and Li, Ang and Vepakomma, Praneeth and Gao, Yue},
-  journal={arXiv preprint arXiv:2407.00952},
-  year={2024}
-  }
-}
-```
-
 ## Appendix 
 If you want to know more detailed information about Lora, see https://github.com/microsoft/LoRA.
 
@@ -290,5 +251,3 @@ If you've found SplitLoRA framework useful for your project, please cite our pap
 ## Update
 [2025/01/09] 🔥 We are excited to announce the release of the split_lora v1.1.0 version for Llama3 . This code allows you to efficiently train the Llama3 model by leveraging split learning techniques. You can access and review the code at the following link: [[Code](https://github.com/FDU-INC/Split_LoRA/tree/v1.1.0)]
 
-## Contact Us
-+ Mr. Xuanjie Hu, email: 23210240184@m.fudan.edu.cn
