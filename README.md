@@ -1,4 +1,4 @@
-# SplitLoRA: A Split Parameter-Efficient Fine-Tuning Framework for Large Language Models
+# SplitFM: A Split Parameter-Efficient Fine-Tuning and Inference Framework for Foundation Models
 
 **Overview: SplitLoRA is the first SL LLM fine-tuning framework. SplitLoRA is built on the split federated learning (SFL) framework, amalgamating the advantages of parallel training from FL and model splitting from
 SL, thus greatly enhancing the training efficiency. It is worth noting that SplitLoRA is the inaugural open-source benchmark for SL LLM fine-tuning, providing a foundation for research efforts dedicated to advancing SL LLM fine-tuning.  The project page is available at [https://fdu-inc.github.io/splitlora/](https://fdu-inc.github.io/splitlora/) and the technical report can be found at [https://arxiv.org/pdf/2407.00952](https://arxiv.org/pdf/2407.00952). If you've found the SplitLoRA framework useful for your project, please cite our paper.**
