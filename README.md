@@ -8,8 +8,6 @@
 
 ## SplitLoRA
 
-### User Guide
-
 **This repository is based on [LoRA](https://github.com/microsoft/LoRA).**
 
 SplitLoRA contains the source code of the Python package loralib and  a example of how to integrate it with PyTorch models, GPT2-s. We only support PyTorch for now. In the future, we will integrate more open source LLMs and more tasks into the SplitLoRA framework
@@ -19,6 +17,8 @@ SplitLoRA contains the source code of the Python package loralib and  a example 
 + LoRA fine-tuning implementation of large language models 
 
 + LoRA fine-tuning implementation of large language model under `SplitLoRA framework`   
+
+### User Guide
 
 #### 1 Build
 
