@@ -6,12 +6,13 @@
 
 **SplitFM** is an open-source framework for **Split** <ins>Parameter-Efficient Fine-Tuning</ins> (i.e., *SplitLoRA*) and <ins>Inference</ins> (i.e., *SplitInfer*) for foundation models. SplitLoRA combines the benefits of data privacy protection from Federated Learning (FL) and model partition-based computational offloading from Split Learning (SL), while SplitInfer leverages cloud computing resources to enable large foundation model inference on resource-constrained edge devices without compromising privacy by avoiding data transmission to high-performance servers. *We hope SplitFM provides a solid foundation for research focused on advancing the deployment of foundation models in resource-limited, data-sensitive edge network environments.*
 
+## SplitLoRA
 
-## User Guide
+### User Guide
 
 **This repository is based on [LoRA](https://github.com/microsoft/LoRA).**
 
-### 1 Introduction
+#### 1 Introduction
 
 SplitLoRA contains the source code of the Python package loralib and  a example of how to integrate it with PyTorch models, GPT2-s. We only support PyTorch for now. In the future, we will integrate more open source LLMs and more tasks into the SplitLoRA framework
 
@@ -21,9 +22,9 @@ SplitLoRA contains the source code of the Python package loralib and  a example 
 
 + LoRA fine-tuning implementation of large language model under `SplitLoRA framework`   
 
-### 2 Build
+#### 2 Build
 
-#### 2.1 Environment Requirements
+##### 2.1 Environment Requirements
 
 We have verified in the environment below:
 
@@ -36,7 +37,7 @@ We have verified in the environment below:
 
 <i>Note: You still need the original pre-trained checkpoint from [Hugging Face](https://huggingface.co/) to use the LoRA checkpoints.</i>
 
-#### 2.2 Quick Start
+##### 2.2 Quick Start
 1. Installing `loralib` is simply
 
  ```python
@@ -85,7 +86,7 @@ We have verified in the environment below:
  model.load_state_dict(torch.load('ckpt_lora.pt'), strict=False)
  ```
 
-#### 2.3 Steps To Reproduce Our Results
+##### 2.3 Steps To Reproduce Our Results
 
 1. You can start with the following docker image: `nvcr.io/nvidia/pytorch:20.03-py3` on a GPU-capable machine, but any generic PyTorch image should work.
 
@@ -105,9 +106,9 @@ We have verified in the environment below:
  ```
 ##### Now we are ready to replicate the results 
 
-### 3 SplitLoRA Module Libraries
+#### 3 SplitLoRA Module Libraries
 
-#### 3.1 Repository 
+##### 3.1 Repository 
 Our implementation is based on the fine-tuning code for GPT-2 in [Hugging Face](https://huggingface.co/).
 There are several directories in this repo:
 
@@ -116,7 +117,7 @@ There are several directories in this repo:
 * [data/](data) contains the raw data we used in our experiments.
 * [vocab/](vocab) contains the GPT-2 vocabulary files.
 
-#### 3.2 Hyper-Parameter  
+##### 3.2 Hyper-Parameter  
 
 
 ```python
@@ -172,7 +173,7 @@ There are several directories in this repo:
 ```
 
 
-### 4  Training Process
+#### 4  Training Process
 
 1. Train GPT-2 Medium with SplitLoRA  
 
