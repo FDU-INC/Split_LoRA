@@ -1,10 +1,10 @@
-# SplitFM: A Split Parameter-Efficient Fine-Tuning and Inference Framework for Large Foundation Models
+# SplitFM: A Split Parameter-Efficient Fine-Tuning and Inference Framework for Foundation Models
 
 <p align="center">
         📑 <a href="https://fdu-inc.github.io/splitlora/">Home Page</a> &nbsp&nbsp | &nbsp&nbsp 📙 <a href="https://arxiv.org/pdf/2407.00952">Paper</a> 
 </p>
 
-**SplitFM** is an open-source framework for **Split** <ins>Parameter-Efficient Fine-Tuning</ins> (i.e., *SplitLoRA*) and <ins>Inference</ins> (i.e., *SplitInfer*) for large foundation models. SplitLoRA combines the benefits of data privacy protection from Federated Learning (FL) and model partition-based computational offloading from Split Learning (SL), while SplitInfer leverages cloud computing resources to enable large foundation model inference on resource-constrained edge devices without compromising privacy by avoiding data transmission to high-performance servers. *We hope SplitFM provides a solid foundation for research focused on advancing the deployment of large foundation models in resource-limited, data-sensitive edge network environments.*
+**SplitFM** is an open-source framework for **Split** <ins>Parameter-Efficient Fine-Tuning</ins> (i.e., *SplitLoRA*) and <ins>Inference</ins> (i.e., *SplitInfer*) for foundation models. SplitLoRA combines the benefits of data privacy protection from Federated Learning (FL) and model partition-based computational offloading from Split Learning (SL), while SplitInfer leverages cloud computing resources to enable large foundation model inference on resource-constrained edge devices without compromising privacy by avoiding data transmission to high-performance servers. *We hope SplitFM provides a solid foundation for research focused on advancing the deployment of foundation models in resource-limited, data-sensitive edge network environments.*
 
 
 ## User Guide
