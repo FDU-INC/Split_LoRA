@@ -1,5 +1,10 @@
 # SplitFM: A Split Parameter-Efficient Fine-Tuning and Inference Framework for Foundation Models
 
+<div align="center">
+  <img src="./figures/logo.jpg" width="40%" alt="SplitFM" />
+</div>
+
+
 <p align="center">
         📑 <a href="https://fdu-inc.github.io/splitlora/">Home Page</a> &nbsp&nbsp | &nbsp&nbsp 📙 <a href="https://arxiv.org/pdf/2407.00952">Paper</a> 
 </p>
