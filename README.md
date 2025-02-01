@@ -261,13 +261,18 @@ python eval/e2e/measure_scores.py e2e_ref.txt e2e_pred.txt -p
 
 -Pushing Large Language Models to the 6G Edge: Vision, Challenges, and Opportunities [[Link](https://arxiv.org/abs/2309.16739)]
 
+-Automated Federated Pipeline for Parameter-Efficient Fine-Tuning of Large Language Models [[Link](https://arxiv.org/abs/2404.06448)]
 
+-SplitLoRA: A Split Parameter-Efficient Fine-Tuning Framework for Large Language Models [[Link](https://arxiv.org/abs/2407.00952)]
+
+-Hierarchical Split Federated Learning: Convergence Analysis and System Optimization [[Link](https://arxiv.org/abs/2412.07197)]
+
+-LEO-Split: A Semi-Supervised Split Learning Framework over LEO Satellite Networks [[Link](https://arxiv.org/abs/2501.01293)]
 
 
 ## Appendix 
-If you want to know more detailed information about Lora, see https://github.com/microsoft/LoRA.
 
-If you've found SplitLoRA framework useful for your project, please cite our paper.
+If you've found SplitFM useful for your project, please cite our paper.
 
 ## Update
 [2025/01/09] 🔥 We are excited to announce the release of the split_lora v1.1.0 version for Llama3 . This code allows you to efficiently train the Llama3 model by leveraging split learning techniques. You can access and review the code at the following link: [[Code](https://github.com/FDU-INC/Split_LoRA/tree/v1.1.0)]
