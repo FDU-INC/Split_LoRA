@@ -275,5 +275,5 @@ python eval/e2e/measure_scores.py e2e_ref.txt e2e_pred.txt -p
 If you've found SplitFM useful for your project, please cite our paper.
 
 ## Update
-[2025/01/09] 🔥 We are excited to announce the release of the split_lora v1.1.0 version for Llama3 . This code allows you to efficiently train the Llama3 model by leveraging split learning techniques. You can access and review the code at the following link: [[Code](https://github.com/FDU-INC/Split_LoRA/tree/v1.1.0)]
+[2025/01/09] 🔥 We are excited to announce the release of the SplitFM v1.1.0 version for Llama3 . This code allows you to efficiently train the Llama3 model by leveraging split learning techniques. You can access and review the code at the following link: [[Code](https://github.com/FDU-INC/Split_LoRA/tree/v1.1.0)]
 
