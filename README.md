@@ -7,9 +7,10 @@
 **SplitFM** is an open-source framework for **Split** <ins>Parameter-Efficient Fine-Tuning</ins> (i.e., *SplitLoRA*) and <ins>Inference</ins> (i.e., *SplitInfer*) for foundation models. SplitLoRA combines the benefits of data privacy protection from Federated Learning (FL) and model partition-based computational offloading from Split Learning (SL), while SplitInfer leverages cloud computing resources to enable large foundation model inference on resource-constrained edge devices without compromising privacy by avoiding data transmission to high-performance servers. *We hope SplitFM provides a solid foundation for research focused on advancing the deployment of foundation models in resource-limited, data-sensitive edge network environments.*
 
 Supported foundation models:
-+ <a href="https://github.com/openai/gpt-2">GTP-2</a>
-+ <a href="https://github.com/meta-llama/llama3">Llama3</a>
 + <a href="https://github.com/QwenLM/Qwen2.5-VL">Qwen2-VL</a>
++ <a href="https://github.com/deepseek-ai/DeepSeek-R1">DeepSeek-R1</a>
++ <a href="https://github.com/meta-llama/llama3">Llama3</a>
++ <a href="https://github.com/openai/gpt-2">GTP-2</a>
 
 ## SplitLoRA
 
