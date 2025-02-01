@@ -7,7 +7,7 @@
 **SplitFM** is an open-source framework for **Split** <ins>Parameter-Efficient Fine-Tuning</ins> (i.e., *SplitLoRA*) and <ins>Inference</ins> (i.e., *SplitInfer*) for foundation models. SplitLoRA combines the benefits of data privacy protection from Federated Learning (FL) and model partition-based computational offloading from Split Learning (SL), while SplitInfer leverages cloud computing resources to enable large foundation model inference on resource-constrained edge devices without compromising privacy by avoiding data transmission to high-performance servers. *We hope SplitFM provides a solid foundation for research focused on advancing the deployment of foundation models in resource-limited, data-sensitive edge network environments.*
 
 Supported foundation models:
-+ <a href="https://github.com/openai/gpt-2">GPT2</a>
++ <a href="https://github.com/openai/gpt-2">GTP-2</a>
 + <a href="https://github.com/meta-llama/llama3">Llama3</a>
 + <a href="https://github.com/QwenLM/Qwen2.5-VL">Qwen2-VL</a>
 
@@ -248,6 +248,21 @@ python src/gpt2_decode.py \
 ```python
 python eval/e2e/measure_scores.py e2e_ref.txt e2e_pred.txt -p
 ```
+
+## Our Works
+
+-Efficient Parallel Split Learning Over Resource-Constrained Wireless Edge Networks [[Link](https://ieeexplore.ieee.org/abstract/document/10415235)]
+
+-AdaptSFL: Adaptive Split Federated Learning in Resource-constrained Edge Networks [[Link](https://arxiv.org/abs/2403.13101)]
+
+-Split Learning in 6G Edge Networks [[Link](https://ieeexplore.ieee.org/abstract/document/10529950)]
+
+-FedSN: A Federated Learning Framework over Heterogeneous LEO Satellite Networks [[Link](https://arxiv.org/abs/2403.13101)]
+
+-Pushing Large Language Models to the 6G Edge: Vision, Challenges, and Opportunities [[Link](https://arxiv.org/abs/2309.16739)]
+
+
+
 
 ## Appendix 
 If you want to know more detailed information about Lora, see https://github.com/microsoft/LoRA.
