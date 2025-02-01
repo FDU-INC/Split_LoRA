@@ -257,6 +257,8 @@ python eval/e2e/measure_scores.py e2e_ref.txt e2e_pred.txt -p
 
 ## Our Works
 
+-SplitLoRA: A Split Parameter-Efficient Fine-Tuning Framework for Large Language Models [[Link](https://arxiv.org/abs/2407.00952)]
+
 -Efficient Parallel Split Learning Over Resource-Constrained Wireless Edge Networks [[Link](https://ieeexplore.ieee.org/abstract/document/10415235)]
 
 -AdaptSFL: Adaptive Split Federated Learning in Resource-constrained Edge Networks [[Link](https://arxiv.org/abs/2403.13101)]
@@ -268,8 +270,6 @@ python eval/e2e/measure_scores.py e2e_ref.txt e2e_pred.txt -p
 -Pushing Large Language Models to the 6G Edge: Vision, Challenges, and Opportunities [[Link](https://arxiv.org/abs/2309.16739)]
 
 -Automated Federated Pipeline for Parameter-Efficient Fine-Tuning of Large Language Models [[Link](https://arxiv.org/abs/2404.06448)]
-
--SplitLoRA: A Split Parameter-Efficient Fine-Tuning Framework for Large Language Models [[Link](https://arxiv.org/abs/2407.00952)]
 
 -Hierarchical Split Federated Learning: Convergence Analysis and System Optimization [[Link](https://arxiv.org/abs/2412.07197)]
 
